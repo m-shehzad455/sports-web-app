@@ -2,7 +2,7 @@
 import React, {useState, useEffect} from 'react'
 import  { FiSearch} from "react-icons/fi"
 import  { AiOutlineMenu} from "react-icons/ai"
-import Logo from'./Logo/images.png';
+import Logo from'./Logo/Capture.PNG';
 import './Navbar.css'
 import {Link } from 'react-router-dom';
 
@@ -32,7 +32,7 @@ export default function Navbar() {
       return (
         
         <nav className='main-nav'>
-          {(toggleMenu || screenWidth > 500) && (
+          {(toggleMenu || screenWidth > 700) && (
             <ul className="list">
               <li>
                 <Link to="/" className="items">Home</Link>
@@ -50,19 +50,18 @@ export default function Navbar() {
                 <Link to="/Features" className="items">Features</Link>
               </li> 
               <li>
-                <div>
-                  <Link to="Home"> <img  src={Logo} className="logo
-                  " alt=''/></Link>
-                </div>
+                <Link to="Home"> <img  src={Logo} className="logo" alt=''/></Link></li>
+              <li>
                 <Link to="/Blog" className="items">Blog</Link>
               </li> 
                 <div>
-                 <input type="text" placeholder='Search' /><FiSearch/>
+                 <input type="text"  className='input' placeholder='Search' /><FiSearch className='srch-icons'/>
                 </div>
               <div className='btns'>
               <li>
-                <Link to="/Login">Login</Link>
+                <Link to="/Login">Login/</Link>
               </li> 
+              
               <li>
                 <Link to="/Signup">Signup</Link>
               </li> 
@@ -72,7 +71,7 @@ export default function Navbar() {
         
           )}
     
-          <button onClick={toggleNav} className="btn"><spna><AiOutlineMenu/></spna></button>
+          <button onClick={toggleNav} className="toggle"><spna><AiOutlineMenu/></spna></button>
         </nav>
       )
     }
