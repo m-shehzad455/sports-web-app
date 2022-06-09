@@ -1,4 +1,3 @@
-
 import React, {useState, useEffect} from 'react'
 import  { FiSearch} from "react-icons/fi"
 import  { AiOutlineMenu} from "react-icons/ai"
@@ -75,5 +74,4 @@ export default function Navbar() {
         </nav>
       )
     }
-
 

@@ -1,12 +1,12 @@
 
 import './App.css';
 import React from 'react';
-import Home from  './Components/Home.js'
-import About from  './Components/Navbar/About.js'
-import News from  './Components/Navbar/News.js'
-import Features from  './Components/Navbar/Features.js'
-import Blog from  './Components/Navbar/Blog.js'
-import Sports from  './Components/Navbar/Sports.js'
+import Home from  './Components/Home.js';
+import About from  './Components/About.js';
+import News from  './Components/News.js';
+import Features from  './Components/Features.js';
+import Blog from  './Components/Blog.js';
+import Sports from  './Components/Sports.js';
 import {
   Routes,
   Route,
