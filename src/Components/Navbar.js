@@ -23,6 +23,7 @@ export default function Navbar() {
         window.addEventListener('resize', changeWidth)
 
         return () => {
+          
             window.removeEventListener('resize', changeWidth)
         }
     

@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Titillium+Web:ital,wght@0,300;0,400;1,600&display=swap');
+
+
+.home{
+    background-image: url(../Components/images/photo-1540747913346-19e32dc3e97e.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: auto;
+    padding: 3rem 5rem;
+}
+.home h1{
+    font-size: 80px;
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Titillium Web', sans-serif; */
+}
+.home  p{
+    color: #fff;
+   font-size: 20px;
+   width: 40%;
+   padding: 8px 0px;
+}
+.home button{
+    color: #fff;
+    background-color: rgb(255, 0, 0);
+    padding: 12px 20px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+}
+
+.sections{
+    padding-top: 20px;
+    display: flex;
+    padding-left: 250px;
+}
+
+.sections p{
+    text-align: center;
+    width: 20%;
+    padding: 15px;
+    margin: 0;
+    border: 1px solid #fff;
+}
+
+.sections > p:nth-child(2) {
+    color: rgb(255, 0, 0);
+}
+
+.null-div-1{
+    width: 0px;
+    height: 0px;
+    border: none;
+    position: relative;
+    border-left:  60px solid ;
+    border-bottom: 60px solid rgb(33, 33, 34);
+
+}
+
+.null-div-2{
+    width: 0px;
+    height: 0px;
+    border: none;
+    position: relative;
+    border-right:  60px solid ;
+    border-bottom: 60px solid rgb(33, 33, 34);
+
+}
+
+.line{
+    display: flex;
+    flex-direction: row;
+    border-left: 2px solid white;
+    height: 420px;
+    position: absolute;
+    left: 90%;
+    margin-left: -4px;
+    top: 70px;
+}
+.social-icons{
+    top: 50%;
+}
